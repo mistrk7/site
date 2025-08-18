@@ -5,7 +5,6 @@
   "scripts": {
     "start": "eleventy --serve",
     "build": "npx @11ty/eleventy",
-    "perms": "chmod +x ./node_modules/.bin/eleventy",
     "build-ghpages": "npx @11ty/eleventy --pathprefix=/site/"
   },
   "repository": {
