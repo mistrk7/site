@@ -5,7 +5,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/fonts/everyday_ample.ttf");
     eleventyConfig.addPassthroughCopy("./src/fonts/everyday_ample_black.ttf");
     eleventyConfig.addPassthroughCopy("./src/fonts/everyday_ample_bold.ttf");
-
+    eleventyConfig.addPassthroughCopy("./src/CNAME");
 
     eleventyConfig.addWatchTarget("./src/css/");
 
