@@ -37,7 +37,7 @@
 }
 
 body{
-    font-family: 'everyday-ample', Arial;
+    font-family: 'everyday-ample', Arial, sans-serif;
     margin: 40px auto;
     max-width: 650px;
     line-height: 1.6;
