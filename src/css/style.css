@@ -36,6 +36,14 @@
     font-size: 150%;
 }
 
+a:link, a:visited {
+    color: #0036b2;
+}
+a:hover {
+    color: #001d66;
+    transition: color 0.3s ease;
+}
+
 body{
     font-family: 'everyday-ample', Arial, sans-serif;
     margin: 40px auto;
