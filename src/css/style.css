@@ -19,21 +19,47 @@
     font-style: normal;
 }
 
+@keyframes colorCycle {
+  0%   { background-color: #7073F6; }
+  16%  { background-color: #E9685F; }
+  33%  { background-color: #F06DD8; }
+  50%  { background-color: #88D57E; }
+  66%  { background-color: #6DF3C7; }
+  83%  { background-color: #C0F0A1; }
+  100%  { background-color: #F3F2BB; }
+}
+
+.title:hover {
+  animation-name: colorCycle; 
+  animation-duration: .15s; 
+  animation-timing-function: steps(1, end);
+}
+
 .block{
     text-align: center;
     margin: auto;
+    padding: 1px;
     color: white;
+
     background-color: rgb(103, 103, 103);
-    border-color: rgb(133, 133, 133);
-    border-style: dashed;
-    border-radius: 25px;
-    border-width: 5px;
+    box-shadow: 12px 12px 0px 1px rgb(65, 65, 75);
+
+    margin-top: 24px;
+    margin-bottom: 24px;
 }
 
-#title{
+.title{
     text-align: center;
+    color: rgb(255, 255, 255);
     line-height: 0.8;
     font-size: 150%;
+
+    background-color: rgb(110, 114, 251);
+    box-shadow: 12px 12px 0px 1px rgb(0, 0, 0);
+
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
 }
 
 a:link, a:visited {
@@ -53,4 +79,20 @@ body{
     padding: 0 10px;
     background-color: rgb(45, 45, 45);
     color: white;
+}
+
+footer{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(200, 200, 200);
+    justify-content: center;
+    display: flex;
+}
+.credits{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 10px;
+    color: gray;
+    gap: 4px;
 }
