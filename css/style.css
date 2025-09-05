@@ -19,7 +19,7 @@
     font-style: normal;
 }
 
-@keyframes colorCycle {
+@keyframes colourCycle {
   0%   { background-color: #7073F6; }
   16%  { background-color: #E9685F; }
   33%  { background-color: #F06DD8; }
@@ -27,12 +27,6 @@
   66%  { background-color: #6DF3C7; }
   83%  { background-color: #C0F0A1; }
   100%  { background-color: #F3F2BB; }
-}
-
-.title:hover {
-  animation-name: colorCycle; 
-  animation-duration: .15s; 
-  animation-timing-function: steps(1, end);
 }
 
 .block{
@@ -49,6 +43,11 @@
 }
 
 .title{
+    animation-name: colourCycle; 
+    animation-duration: .1s; 
+    animation-timing-function: steps(1, end);
+    animation-iteration-count: 2;
+
     text-align: center;
     color: rgb(255, 255, 255);
     line-height: 0.8;
