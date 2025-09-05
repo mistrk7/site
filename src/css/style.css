@@ -33,10 +33,10 @@
     text-align: center;
     margin: auto;
     padding: 1px;
-    color: white;
+    color: black;
 
-    background-color: rgb(103, 103, 103);
-    box-shadow: 12px 12px 0px 1px rgb(65, 65, 75);
+    background-color: #b6b8fd;
+    box-shadow: 12px 12px 0px 1px black;
 
     margin-top: 24px;
     margin-bottom: 24px;
@@ -62,7 +62,7 @@
 }
 
 a:link, a:visited {
-    color: #0036b2;
+    color: #0b24fb;
 }
 a:hover {
     color: #001d66;
@@ -76,7 +76,7 @@ body{
     line-height: 1.6;
     font-size: 18px;
     padding: 0 10px;
-    background-color: rgb(45, 45, 45);
+    background-color: #484855;
     color: white;
 }
 
