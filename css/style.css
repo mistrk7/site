@@ -20,19 +20,25 @@
 }
 
 @keyframes colourCycle {
-  0%   { background-color: #7073F6; }
-  16%  { background-color: #E9685F; }
-  33%  { background-color: #F06DD8; }
-  50%  { background-color: #88D57E; }
-  66%  { background-color: #6DF3C7; }
-  83%  { background-color: #C0F0A1; }
-  100%  { background-color: #F3F2BB; }
+  0%    { background-color: #7073F6; 
+         box-shadow: 12px 12px 0px 1px rgba(0, 0, 0, 0);
+        }
+  16%   { background-color: #E9685F; }
+  33%   { background-color: #F06DD8; }
+  50%   { background-color: #88D57E; }
+  66%   { background-color: #6DF3C7; }
+  83%   { background-color: #C0F0A1; }
+  100%  { background-color: #F3F2BB; 
+         box-shadow: 12px 12px 0px 1px black;
+        }
 }
 
 .block{
-    text-align: center;
     margin: auto;
-    padding: 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: black;
 
     background-color: #b6b8fd;
@@ -53,9 +59,9 @@
     line-height: 0.8;
     font-size: 150%;
 
-    background-color: rgb(110, 114, 251);
+    background-color: rgb(110, 114, 251);   
     box-shadow: 12px 12px 0px 1px rgb(0, 0, 0);
-
+    
     padding-top: 1px;
     padding-bottom: 1px;
     margin-bottom: 20px;
