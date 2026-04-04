@@ -33,12 +33,33 @@
         }
 }
 
+.selector{
+    margin: auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    display: flex; 
+    gap: 4px;
+
+    background-color: #b6b8fd;
+    box-shadow: 12px 12px 0px 1px black;
+
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.selector-part{
+    width: 100px; 
+    text-align: center;
+    padding: 0%;
+}
+
 .block{
     margin: auto;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     color: black;
 
     background-color: #b6b8fd;

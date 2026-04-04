@@ -1,0 +1,7 @@
+---
+layout: layout.html
+title: Blog
+---
+{% for x in collections.post %}
+<li> <a href="/posts/{{x.data.title}}">{{ x.data.title }}</a> </li>
+{% endfor %}

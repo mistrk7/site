@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="/css/style.css">
+    <div>
+        <div class="title">
+            <div style="display: flex; position: absolute; margin: 16px; gap: 16px;">
+                <a href="https://bsky.app/profile/misterk.in"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bluesky_Logo_White.svg/1280px-Bluesky_Logo_White.svg.png?20250521155041"
+                        alt="Bluesky" height="28px" width="auto"></a>
+                <a href="https://discord.com/users/176384198570016768"><img
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Discord_white_D.svg/960px-Discord_white_D.svg.png"
+                        alt="Discord" height="28px" width="auto"></a>
+                <a href="https://www.youtube.com/@misterk7_-"><img
+                        src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-app-white-icon.png"
+                        alt="YouTube" height="28px" width="auto"></a>
+            </div>
+            <p><small>welcome to...</small></p>
+            <h1>misterk.in</h1>
+            <p>on the internet</p>
+        </div>
+    </div>
+    <div class="selector">
+        <div class="selector-part">
+            <h3><a href="/" style="color: inherit;">Home</a></h3>
+        </div>
+        <div class="selector-part">
+            <h3><a href="/blog" style="color: inherit;">Blog</a></h3>
+        </div>
+    </div>
+</head>
+
+<body>
+    <div class="block">
+        <h1 style="text-align: center;">{{ title | default: title }}</h1>
+        {{ content }}
+    </div>
+</body>
+
+<footer>
+    <div class="footer">
+        <p>© 2026 - misterk7_-</p>
+        <div class="credits">
+            <span>Font by v3x3d</span>
+            <span>Retronators ZX Spectrum Next colour palette</span>
+        </div>
+    </div>
+</footer>
+
+</html>
