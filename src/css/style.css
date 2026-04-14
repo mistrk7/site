@@ -21,7 +21,7 @@
 
 @keyframes colourCycle {
   0%    { background-color: #7073F6; 
-         box-shadow: 12px 12px 0px 1px rgba(0, 0, 0, 0);
+         box-shadow: 14px 14px 0px 1px rgba(0, 0, 0, 0);
         }
   16%   { background-color: #E9685F; }
   33%   { background-color: #F06DD8; }
@@ -29,7 +29,7 @@
   66%   { background-color: #6DF3C7; }
   83%   { background-color: #C0F0A1; }
   100%  { background-color: #F3F2BB; 
-         box-shadow: 12px 12px 0px 1px black;
+         box-shadow: 14px 14px 0px 1px black;
         }
 }
 
@@ -43,7 +43,7 @@
     gap: 4px;
 
     background-color: #b6b8fd;
-    box-shadow: 12px 12px 0px 1px black;
+    box-shadow: 14px 14px 0px 1px black;
 
     margin-top: 24px;
     margin-bottom: 24px;
@@ -63,7 +63,7 @@
     color: black;
 
     background-color: #b6b8fd;
-    box-shadow: 12px 12px 0px 1px black;
+    box-shadow: 14px 14px 0px 1px black;
 
     margin-top: 24px;
     margin-bottom: 24px;
@@ -81,7 +81,7 @@
     font-size: 150%;
 
     background-color: rgb(110, 114, 251);   
-    box-shadow: 12px 12px 0px 1px rgb(0, 0, 0);
+    box-shadow: 14px 14px 0px 1px rgb(0, 0, 0);
     
     padding-top: 1px;
     padding-bottom: 1px;
@@ -139,4 +139,63 @@ footer{
     font-size: 10px;
     color: gray;
     gap: 4px;
+}
+
+h1.glitch {
+  color: white;
+  font-weight: 800;
+  position: relative;
+  --bg-color: #6e72fb;
+
+  &::before,
+  &::after {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%;
+    margin-left: 20%;
+    height: 100%;
+    background: var(--bg-color);
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    animation-fill-mode: forwards;
+  }
+
+  &::before {
+    left: 5px;
+    text-shadow: -5px 0 red;
+    animation: glitch-animation-1 12s steps(1, end) 5s infinite alternate-reverse,
+               fade-in 0s forwards 5s;
+  }
+
+  &::after {
+    left: -5px;
+    text-shadow: -5px 0 blue;
+    animation: glitch-animation-2 8s steps(1, end) 5s infinite alternate-reverse,
+               fade-in 0s forwards 5s;
+  }
+}
+
+@keyframes fade-in {
+  to { opacity: 1; }
+}
+
+@keyframes glitch-animation-1 {
+    0% { clip-path: inset(60% 0 0 0); }
+    20% { clip-path: inset(5% 0 75% 0); }
+    40% { clip-path: inset(100% 0 100% 0); }
+    60% { clip-path: inset(10% 0 60% 0); }
+    80% { clip-path: inset(75% 0 0 0); }
+    100% { clip-path: inset(100% 0 100% 0); }
+}
+
+@keyframes glitch-animation-2 {
+    0% { clip-path: inset(10% 0 60% 0); }
+    20% { clip-path: inset(60% 0 0 0); }
+    40% { clip-path: inset(0% 0 100% 0); }
+    60% { clip-path: inset(75% 0 0 0); }
+    80% { clip-path: inset(0 0 75% 0); }
+    100% { clip-path: inset(25% 0 50% 0); }
 }
