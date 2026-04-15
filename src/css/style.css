@@ -34,13 +34,22 @@
 }
 
 .selector{
-    margin: auto;
+    margin-inline: auto;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+
+    min-width: 90%;
+    width: max-content;
+    
     padding-left: 5%;
     padding-right: 5%;
     color: black;
+    
     display: flex; 
-    align-items: center;
-    gap: 4px;
+    align-items: stretch;
+    gap: 40px;
 
     background-color: #b6b8fd;
     box-shadow: 14px 14px 0px 1px black;
@@ -164,7 +173,7 @@ h1.glitch {
   }
 
   &::before {
-    left: 5px;
+    left: 5px;  
     text-shadow: -5px 0 red;
     animation: glitch-animation-1 12s steps(1, end) 5s infinite alternate-reverse,
                fade-in 0s forwards 5s;
