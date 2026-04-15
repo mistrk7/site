@@ -4,7 +4,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "make": "npm init -y",
     "start": "eleventy --serve",
     "build": "npx @11ty/eleventy",
     "perms": "chmod +x ./node_modules/.bin/eleventy",
@@ -24,6 +23,5 @@
   "dependencies": {
     "@11ty/eleventy": "^3.1.2"
   },
-  "devDependencies": {},
   "description": ""
 }
