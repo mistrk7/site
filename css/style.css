@@ -80,6 +80,7 @@
 
 .title{
     animation-name: colourCycle; 
+    max-width: 650px;
     animation-duration: .1s; 
     animation-timing-function: steps(1, end);
     animation-iteration-count: 2;
@@ -95,6 +96,23 @@
     padding-top: 1px;
     padding-bottom: 1px;
     margin-bottom: 20px;
+}
+
+.titleLinks{
+    position: absolute; 
+    display: flex; 
+    justify-content: space-between; 
+    max-width: inherit;
+    width: 100%;
+    margin: 16px;
+}
+
+.titleLinks-block{
+    justify-content:center;
+    display: flex; 
+    max-width: inherit; 
+    margin-right: 36px;
+    gap: 16px;
 }
 
 a:link, a:visited {
