@@ -1,6 +1,7 @@
 export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/css/");
     eleventyConfig.addPassthroughCopy("./src/fonts/");
+    eleventyConfig.addPassthroughCopy("./src/javascript/");
     eleventyConfig.addPassthroughCopy("./src/CNAME");
     eleventyConfig.addWatchTarget("./src/css/");
     return {

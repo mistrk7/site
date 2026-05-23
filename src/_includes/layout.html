@@ -1,20 +1,31 @@
 <html>
 
+<script src="/javascript/rot13.js"></script>
 <head>
     <link rel="stylesheet" href="/css/style.css">
     <div>
         <div class="title">
-            <div style="display: flex; position: absolute; margin: 16px; gap: 16px;">
-                <a href="https://bsky.app/profile/misterk.in"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Bluesky_Logo_White.svg/1280px-Bluesky_Logo_White.svg.png?20250521155041"
-                        alt="Bluesky" height="28px" width="auto"></a>
-                <a href="https://discord.com/users/176384198570016768"><img
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Discord_white_D.svg/960px-Discord_white_D.svg.png"
-                        alt="Discord" height="28px" width="auto"></a>
-                <a href="https://www.youtube.com/@misterk7_-"><img
-                        src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-app-white-icon.png"
-                        alt="YouTube" height="28px" width="auto"></a>
+            <div class="titleLinks">
+                <!-- Socials -->
+                <div class="titleLinks-block">
+                    <a href="https://bsky.app/profile/misterk.in"><img
+                            src="https://media.ourkidsclimate.org/2024/11/Bluesky_Logo_white_500.png"
+                            alt="Bluesky" title="Bluesky" height="28px" width="auto"></a>
+                    <a href="https://www.youtube.com/@misterk7_-"><img
+                            src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-app-white-icon.png"
+                            alt="YouTube" title="YouTube" height="28px" width="auto"></a>
+                </div>
+                <!-- Business Socials (encryptedish) -->
+                <div class="titleLinks-block" style="flex-direction: row-reverse;">
+                    <a href=" " title="LinkedIn" onclick='openCrypt("lkin",this);'><img
+                            src="https://vetsez.com/wp-content/uploads/2024/11/LinkedIn-Logo-Square-White.png"
+                            alt="LinkedIn" height="28px" width="auto"></a>
+                    <a href=" " title="Email" onclick='openCrypt("mail",this);'><img
+                            src="https://olivet-baptist-church.com/wp-content/uploads/2024/12/email-icon-white.png"
+                            alt="Email" height="28px" width="auto"></a>
+                    </div>
             </div>
+
             <p><small>welcome to...</small></p>
             <h1 class="glitch" data-text="misterk.in">misterk.in</h1>
             <p>on the internet</p>
