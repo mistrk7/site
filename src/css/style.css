@@ -193,14 +193,14 @@ h1.glitch {
   &::before {
     left: 5px;  
     text-shadow: -5px 0 red;
-    animation: glitch-animation-1 12s steps(1, end) 5s infinite alternate-reverse,
+    animation: glitch-animation-1 8s steps(1, end) 5s infinite alternate-reverse,
                fade-in 0s forwards 5s;
   }
 
   &::after {
     left: -5px;
     text-shadow: -5px 0 blue;
-    animation: glitch-animation-2 8s steps(1, end) 5s infinite alternate-reverse,
+    animation: glitch-animation-2 6s steps(1, end) 5s infinite alternate-reverse,
                fade-in 0s forwards 5s;
   }
 }
