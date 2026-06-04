@@ -2,6 +2,7 @@
   "$schema": "https://tangled.org/stevedylan.dev/sequoia/raw/main/sequoia.schema.json",
   "siteUrl": "https://misterk.in",
   "contentDir": "./src/post",
+  "publicDir": "./src",
   "outputDir": "./public",
   "pathPrefix": "/post",
   "publicationUri": "at://did:plc:wmrg2gegbtvxjtlx55clin3l/site.standard.publication/3mni2oqoypd2l",
@@ -10,6 +11,6 @@
     "enabled": true
   },
   "ui": {
-    "components": "./src/components"
-  } 
+    "components": "src/components"
+  }
 }
