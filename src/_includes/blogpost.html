@@ -1,6 +1,16 @@
 <html>
 
-{% include "layout/head.html" %}
+<head>
+
+    <!-- layouts/_partials/head.html -->
+    {{ if atUri }}
+    <link rel="site.standard.document" href="{{ atUri }}" />
+    {{ end }}
+    <link rel="site.standard.publication" href="at://did:plc:wmrg2gegbtvxjtlx55clin3l/site.standard.publication/3mni2oqoypd2l" />
+
+    {% include "layout/head.html" %}
+
+</head>
 
 <body>
     <div class="block">
