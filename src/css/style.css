@@ -1,3 +1,12 @@
+/* :root {
+    --sequoia-fg-color: #1f2937;
+    --sequoia-bg-color: #ffffff;
+    --sequoia-border-color: #e5e7eb;
+    --sequoia-accent-color: #2563eb;
+    --sequoia-secondary-color: #6b7280;
+    --sequoia-border-radius: 8px;
+} */
+
 @font-face {
     font-family: 'everyday-ample';
     src: url('../fonts/everyday_ample.ttf') format('opentype');

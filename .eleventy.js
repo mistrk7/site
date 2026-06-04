@@ -5,6 +5,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("./src/CNAME");
     eleventyConfig.addPassthroughCopy("./src/.well-known/");
     eleventyConfig.addPassthroughCopy("./src/assets/");
+    eleventyConfig.addPassthroughCopy("./src/components/");
     eleventyConfig.addWatchTarget("./src/css/");
     return {
         dir: {
