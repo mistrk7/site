@@ -1,10 +1,10 @@
 {
   "$schema": "https://tangled.org/stevedylan.dev/sequoia/raw/main/sequoia.schema.json",
   "siteUrl": "https://misterk.in",
-  "contentDir": "./src/post",
+  "contentDir": "./src/blog",
   "publicDir": "./src",
   "outputDir": "./public",
-  "pathPrefix": "/post",
+  "pathPrefix": "/blog",
   "publicationUri": "at://did:plc:wmrg2gegbtvxjtlx55clin3l/site.standard.publication/3mni2oqoypd2l",
   "publishContent": true,
   "bluesky": {
