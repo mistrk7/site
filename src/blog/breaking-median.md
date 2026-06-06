@@ -1,11 +1,11 @@
 ---
-title: Breaking from the median
-description: How do you stand out when everything is being produced so polished and so quickly? My first blog post. 
-pubDate: 6/4/2026
+title: Breaking from the Median
+description: The barrier of entry has been significantly lowered for design and technology. But what does this mean for individuality and identity online, and how can we return to digital independance? (My first blog post) 
+pubDate: 6/6/2026
 coverImage:
 heroImage:
 tags: 
-atUri: "at://did:plc:wmrg2gegbtvxjtlx55clin3l/site.standard.document/3mni32gjgkm2l"
+atUri: "at://did:plc:wmrg2gegbtvxjtlx55clin3l/site.standard.document/3mnnjwnubca2a"
 ---
 ---
 
