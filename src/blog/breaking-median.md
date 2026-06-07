@@ -1,10 +1,10 @@
 ---
 title: Breaking from the Median
 description: The barrier of entry has been significantly lowered for design and technology. But what does this mean for individuality and identity online, and how can we return to digital independance? (My first blog post) 
-pubDate: 'Jun 06 2026'
+pubDate: 6/6/2026
 coverImage:
 heroImage:
-tags: ['decentralization', 'web dev']
+tags: 
 atUri: "at://did:plc:wmrg2gegbtvxjtlx55clin3l/site.standard.document/3mnnjwnubca2a"
 ---
 ---
