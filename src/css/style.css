@@ -14,6 +14,10 @@
     font-style: normal;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 @font-face {
     font-family: 'everyday-ample';
     src: url('../fonts/everyday_ample_black.ttf') format('opentype');
