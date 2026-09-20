@@ -9,25 +9,28 @@
 
 @font-face {
     font-family: 'everyday-ample';
-    src: url('../fonts/everyday_ample.ttf') format('opentype');
+    src: url('../fonts/everyday_ample.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 html {
   overflow-y: scroll;
+
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 @font-face {
     font-family: 'everyday-ample';
-    src: url('../fonts/everyday_ample_black.ttf') format('opentype');
+    src: url('../fonts/everyday_ample_black.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'everyday-ample';
-    src: url('../fonts/everyday_ample_black.ttf') format('opentype');
+    src: url('../fonts/everyday_ample_black.ttf') format('truetype');
     font-weight: 900;
     font-style: normal;
 }
