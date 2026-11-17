@@ -159,6 +159,8 @@ const styles = `
 .sequoia-comments-list {
 	display: flex;
 	flex-direction: column;
+
+	font-size: 0.95rem;
 }
 
 .sequoia-thread {
@@ -192,8 +194,12 @@ const styles = `
 .sequoia-comment-avatar {
 	width: 2.5rem;
 	height: 2.5rem;
-	border-radius: 50%;
 	background: var(--sequoia-border-color, #e5e7eb);
+
+	border-radius: 0%;
+	border-style: solid;
+	border-width: 2px;
+
 	object-fit: cover;
 	flex-shrink: 0;
 	position: relative;
@@ -203,7 +209,9 @@ const styles = `
 .sequoia-comment-avatar-placeholder {
 	width: 2.5rem;
 	height: 2.5rem;
-	border-radius: 50%;
+
+	border-radius: 0%;
+	
 	background: var(--sequoia-border-color, #e5e7eb);
 	display: flex;
 	align-items: center;
