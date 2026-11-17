@@ -1,16 +1,16 @@
+<!DOCTYPE html>
 <html>
+    
+    <head>
+        {% include "layout/head.html" %}
+    </head>
 
-<head>
-{% include "layout/head.html" %}
-</head>
+    <body>
+        <div class="block">
+            <h1 style="text-align: center;">{{ title | default: title }}</h1>
+            {{ content }}
+        </div>
+    </body>
 
-<body>
-    <div class="block">
-        <h1 style="text-align: center;">{{ title | default: title }}</h1>
-        {{ content }}
-    </div>
-</body>
-
-{% include "layout/footer.html" %}
-
+    {% include "layout/footer.html" %}
 </html>

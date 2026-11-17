@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -6,7 +7,8 @@
     {{ if atUri }}
     <link rel="site.standard.document" href="{{ atUri }}" />
     {{ end }}
-    <link rel="site.standard.publication" href="at://did:plc:wmrg2gegbtvxjtlx55clin3l/site.standard.publication/3mni2oqoypd2l" />
+    <link rel="site.standard.publication"
+        href="at://did:plc:wmrg2gegbtvxjtlx55clin3l/site.standard.publication/3mni2oqoypd2l" />
 
     {% include "layout/head.html" %}
 
@@ -18,8 +20,8 @@
         {{ content }}
     </div>
 
-    <div class="block">
-        <h2 style="text-align: center;">Comments</h2><hr>
+    <div class="block" style="background-color: #eff192">
+        <h2 style="text-align: center;">Notepad</h2>
 
         <script type="module" src="/components/sequoia-comments.js"></script>
         <sequoia-comments></sequoia-comments>
