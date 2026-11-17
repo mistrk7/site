@@ -22,7 +22,7 @@
   "homepage": "https://github.com/mistrk7/site#readme",
   "dependencies": {
     "@11ty/eleventy": "^3.1.2",
-    "sequoia-cli": "^0.5.7"
+    "sequoia-cli": "^0.5.8"
   },
   "description": ""
 }
