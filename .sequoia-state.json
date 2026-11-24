@@ -1,0 +1,20 @@
+{
+  "posts": {
+    "src\\blog\\dummy-post.md": {
+      "contentHash": "82f960dd1a7555ebdcdf57b65e65989a946a36fdca0b90bb0c2db4238abc8bd1",
+      "atUri": "at://did:plc:wmrg2gegbtvxjtlx55clin3l/site.standard.document/3mnowtoiugx2y",
+      "lastPublished": "2026-06-07T10:15:00.000Z",
+      "slug": "dummy-post"
+    },
+    "src\\blog\\breaking-median.md": {
+      "contentHash": "681bcbb2bbff8a5be05d8af917bb181bc6c2304e701dc88c9a225d6db114ae1b",
+      "atUri": "at://did:plc:wmrg2gegbtvxjtlx55clin3l/site.standard.document/3mnnjwnubca2a",
+      "lastPublished": "2026-06-06T23:00:00.000Z",
+      "slug": "breaking-median"
+    }
+  },
+  "publication": {
+    "cid": "bafyreidgamr4s4gf3bys3tsntl44kwxozuhxta6b5sdkxxcfg6bfdtutva",
+    "uri": "at://did:plc:wmrg2gegbtvxjtlx55clin3l/site.standard.publication/3mni2oqoypd2l"
+  }
+}
