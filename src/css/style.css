@@ -10,6 +10,10 @@ hr {
     margin: 20px 0;
 }
 
+img {
+    image-rendering: pixelated;
+}
+
 @font-face {
     font-family: 'everyday-ample';
     src: url('../fonts/everyday_ample.ttf') format('truetype');
