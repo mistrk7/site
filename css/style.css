@@ -1,10 +1,17 @@
  :root {
-    --sequoia-fg-color: #1f2937;
-    --sequoia-bg-color: #ffffff;
-    --sequoia-border-color: #e5e7eb;
-    --sequoia-accent-color: #2563eb;
-    --sequoia-secondary-color: #6b7280;
-    --sequoia-border-radius: 8px;
+    --sequoia-font-family: 'everyday-ample', Arial, sans-serif;
+    --sequoia-border-color: #2e2e2e;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #2e2e2e;
+    margin: 20px 0;
+}
+
+img {
+    image-rendering: pixelated;
 }
 
 @font-face {
@@ -25,13 +32,6 @@ html {
     font-family: 'everyday-ample';
     src: url('../fonts/everyday_ample_black.ttf') format('truetype');
     font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'everyday-ample';
-    src: url('../fonts/everyday_ample_black.ttf') format('truetype');
-    font-weight: 900;
     font-style: normal;
 }
 
